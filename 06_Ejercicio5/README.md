@@ -14,21 +14,6 @@ para cada caso una serie de instrucciones específicas. Tienen la siguiente form
              Fin si
           Fin si
 
-SELECCIONAR UN ELEMENTO
-En Javascript podemos seleccionar un elemento de varias formas:
- 1. Por su Id:
-    Accedemos directamente al elemento deseado por su id única
-     
-    let elem = document.getElementById('id_del_elemento');
-
-**document.getElementById()**
-Permite obtener la referencia a un elemento de la página mediante el id del dicho elemento.
-
-Propiedades
-innerHTML: Cambiar contenido
-style.fontSize: Cambiar fuente
-Style.display: Ocultar elementos
-
 ------------------------------------------------------------------------
 
 Ejercicio
