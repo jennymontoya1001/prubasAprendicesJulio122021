@@ -1,0 +1,41 @@
+Condicional múltiple
+
+Múltiples: Son tomas de decisión especializadas que permiten comparar una variable contra distintos posibles resultados, ejecutando
+para cada caso una serie de instrucciones específicas. Tienen la siguiente forma:
+         Si<condición> entonces
+            Acción(es)
+            Si <condición> entonces
+               Acción(es)
+               Sino 
+                  Acción(es)
+                  .
+                  .
+                  .
+             Fin si
+          Fin si
+
+SELECCIONAR UN ELEMENTO
+En Javascript podemos seleccionar un elemento de varias formas:
+ 1. Por su Id:
+    Accedemos directamente al elemento deseado por su id única
+     
+    let elem = document.getElementById('id_del_elemento');
+
+**document.getElementById()**
+Permite obtener la referencia a un elemento de la página mediante el id del dicho elemento.
+
+Propiedades
+innerHTML: Cambiar contenido
+style.fontSize: Cambiar fuente
+Style.display: Ocultar elementos
+
+------------------------------------------------------------------------
+
+Ejercicio
+En una tienda de descuento se efectúa una promoción en la cual se hace descuento sobre el valor de la compra según el color de la bolita que el cliente elija al pagar en caja.
+Si la bolita es de color blanco no se le hará descuento alguno.
+Si la bolita es verde se le hará un 10% de descuento
+Si la bolita es amarilla un 25%
+Si la bolita es azul un 50%
+si la bolita es roja un 100%
+Determinar la cantidad final que el cliente deberá pagar por su compra, también imprimir el nombre del cliente. Se sabe que solo hay bolitas de los colores mencionados
